@@ -1,0 +1,65 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.team-match-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-matches-container {
+  width: 90%;
+  margin-top: 40px;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-container {
+    margin-top: 56px;
+    max-width: 1100px;
+  }
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.RCB {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+.KKR {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+.KXP {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.CSK {
+  background-image: linear-gradient(to top, #f7db00, #1e293b);
+}
+.RR {
+  background-image: linear-gradient(to top, #da237b, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to top, #13418b, #1e293b);
+}
+.SH {
+  background-image: linear-gradient(to top, #f26d22, #1e293b);
+}
+.DC {
+  background-image: linear-gradient(to top, #4f5db0, #1e293b);
+}

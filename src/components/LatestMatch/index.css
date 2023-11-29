@@ -1,0 +1,135 @@
+.latest-match-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.latest-match-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Bree Serif';
+  color: #fff;
+}
+
+.latest-match-card {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.latest-match-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.team-match-details {
+  color: #fff;
+  font-family: 'Bree Serif';
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .team-match-details {
+    width: 100%;
+  }
+}
+
+.competing-team-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.venue-result-date {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-name {
+    font-size: 25px;
+  }
+  .venue-result-date {
+    font-size: 18px;
+  }
+}
+
+.competing-team-logo {
+  width: 30%;
+}
+
+@media screen and (min-width) {
+  .competing-team-logo {
+    width: 40%;
+  }
+}
+
+.match-details-info {
+  width: 100%;
+  padding-right: 16px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .match-details-info {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 32px;
+  }
+}
+
+.match-info-item {
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .match-info-item {
+  }
+}
+
+.competition-label {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 76px) {
+  .competition-label {
+    font-size: 18px;
+  }
+}
+
+.competition-value {
+  color: #fff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 76px) {
+  .competition-value {
+    font-size: 14px;
+  }
+}
